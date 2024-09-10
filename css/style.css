@@ -1,0 +1,360 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-link {
+  color: #007bff;
+}
+
+.btn-link:hover {
+  color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.card {
+  border-radius: 1.875em;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  border-radius: 1.875em 1.875em 0 0;
+  color: white;
+}
+
+.container {
+  margin-top: 3.125em;
+  margin: 0 auto;
+  padding: 1.25em;
+  width: 80%;
+}
+
+.feature {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.625em;
+}
+
+.feature i {
+  font-size: 3rem;
+  margin-bottom: 1.25em;
+}
+
+.feature p {
+  font-size: 1.2rem;
+}
+
+.features {
+  padding: 3.125em 0;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1.875em 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url(../images/accueil.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 6.25em 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.25em;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5em;
+}
+
+.home-page .footer p {
+  margin: 0;
+}
+
+.index-page .card {
+  border-radius: 1.875em;
+}
+
+.index-page .card-header {
+  border-radius: 1.875em 1.875em 0 0;
+}
+
+.index-page h2 {
+  padding: 0.25em;
+  text-align: center;
+}
+
+.modify-info-form {
+  background-color: #fff;
+  border-radius: 1.875em;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+  padding: 2em;
+}
+
+.modify-info-form .form-group {
+  margin-bottom: 2em;
+}
+
+.modify-info-form a.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+  display: inline-block;
+  margin-right: 1em;
+  text-align: center;
+  width: auto;
+}
+
+.modify-info-form a.btn-secondary,
+.modify-info-form button[type="submit"] {
+  width: 100%;
+}
+
+.modify-info-form a.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.modify-info-form h2 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.modify-info-form input[type="email"],
+.modify-info-form input[type="tel"],
+.modify-info-form input[type="text"] {
+  border-radius: 0.25em;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  padding: 0.75em;
+  width: 100%;
+}
+
+.modify-info-form label {
+  font-weight: bold;
+}
+
+.modify-info-page {
+  background-color: #f8f9fa;
+  padding: 2em 0;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 1.25em;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 0.625em 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.password-reset-page {
+  background-color: #f8f9fa;
+  padding: 2em 0;
+}
+
+.password-reset-page .btn-primary {
+  width: 100%;
+}
+
+.password-reset-page .card {
+  border-radius: 1.875em;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+}
+
+.password-reset-page .card-body {
+  padding: 2em;
+}
+
+.password-reset-page .card-header {
+  background-color: #007bff;
+  border-radius: 1.875em 1.875em 0 0;
+  color: white;
+}
+
+.password-reset-page .container {
+  margin-top: 3.125em;
+}
+
+.password-reset-page .form-group {
+  margin-bottom: 1.5em;
+}
+
+.password-reset-page p {
+  margin-bottom: 1.5em;
+}
+
+.register-page {
+  padding-top: 2em;
+}
+
+.register-page .alert {
+  margin-top: 1.25em;
+}
+
+.register-page .btn-primary {
+  width: 100%;
+}
+
+.register-page .card {
+  border-radius: 1.875em;
+}
+
+.register-page .card-header {
+  border-radius: 1.875em 1.875em 0 0;
+}
+
+.register-page .col-md-6 {
+  border-radius: 0.3125em;
+  margin-top: 0;
+  padding: 1.25em;
+}
+
+.register-page .container {
+  margin-top: 1.25em;
+}
+
+.register-page .form-group {
+  margin-bottom: 1.25em;
+}
+
+.register-page .g-recaptcha {
+  margin-top: 1.25em;
+  text-align: center;
+}
+
+.register-page .g-recaptcha-error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.register-page h2 {
+  background-color: #007bff;
+  border-radius: 1.875em 1.875em 0 0;
+  color: #fff;
+  margin-top: 0;
+  padding: 1.25em;
+  text-align: center;
+}
+
+.reservation-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.reservation-form h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.reservation-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 30px 0;
+}
+
+.service {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.service h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.625em;
+}
+
+.service i {
+  font-size: 3rem;
+  margin-bottom: 1.25em;
+}
+
+.service p {
+  font-size: 1.2rem;
+}
+
+.services {
+  background-color: #f8f9fa;
+  padding: 3.125em 0;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.logo {
+  width: 4em;
+  height: auto;
+}
+
+.custom-navbar {
+  height: 15%;
+  margin: 0 auto;
+}
+.custom-navbar .navbar-nav .nav-link {
+  padding: 0.25rem;
+}
